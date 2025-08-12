@@ -27,3 +27,19 @@ const ahn = {
   year : 2003,
   group : 'ive'
 }
+console.log("================")
+console.log('for ~ in : object 순회')
+// for ~ in
+for(let x in ahn){
+  console.log(ahn[x]);
+}
+console.log("================")
+console.log('for ~ of : 배열, 리스트에서 사용가능')
+let ive = ['장원영', '안유진', '이서'];
+for(let x of ive){
+  console.log(x);
+}
+console.log('for ~ in')
+for(let x in ive){
+  console.log(ive[x]);
+}
