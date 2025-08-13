@@ -43,3 +43,15 @@ console.log('for ~ in')
 for(let x in ive){
   console.log(ive[x]);
 }
+
+// break : 현재의 블럭을 탈출
+// continue : 현재 아래 실행않고 블럭계속진행
+// return : 함수를 빠져나가는 것
+// do ~ while or while
+// 1~10까지 회전하면서, 5면 탈출
+number = 1
+do {
+  if(number == 5) break;
+  console.log(number);
+  number++;
+} while(number < 10)
